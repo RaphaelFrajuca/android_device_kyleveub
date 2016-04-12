@@ -14,14 +14,14 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/kyleveub/overlay
 
 # Init files
 PRODUCT_COPY_FILES += \
-	device/samsung/kyleveub/ramdisk/fstab.hawaii_ss_kyleveub:root/fstab.hawaii_ss_kyleveub \
+	device/samsung/kyleveub/ramdisk/fstab.hawaii_ss_kyleve:root/fstab.hawaii_ss_kyleve \
 	device/samsung/kyleveub/ramdisk/init.rc:root/init.rc \
-	device/samsung/kyleveub/ramdisk/init.hawaii_ss_kyleveub.rc:root/init.hawaii_ss_kyleveub.rc \
+	device/samsung/kyleveub/ramdisk/init.hawaii_ss_kyleve.rc:root/init.hawaii_ss_kyleve.rc \
 	device/samsung/kyleveub/ramdisk/init.bcm2166x.usb.rc:root/init.bcm2166x.usb.rc \
 	device/samsung/kyleveub/ramdisk/init.log.rc:root/init.log.rc \
 	device/samsung/kyleveub/ramdisk/lpm.rc:root/lpm.rc \
 	device/samsung/kyleveub/ramdisk/charger:root/charger \
-	device/samsung/kyleveub/ramdisk/ueventd.hawaii_ss_kyleveub.rc:root/ueventd.hawaii_ss_kyleveub.rc
+	device/samsung/kyleveub/ramdisk/ueventd.hawaii_ss_kyleve.rc:root/ueventd.hawaii_ss_kyleve.rc
 	
 PRODUCT_COPY_FILES += \
 	device/samsung/kyleveub/configs/media_profiles.xml:system/etc/media_profiles.xml \
