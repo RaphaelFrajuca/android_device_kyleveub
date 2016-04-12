@@ -22,7 +22,7 @@ TARGET_EXTERNAL_APPS = sdcard1
 BOARD_KERNEL_CMDLINE :=
 BOARD_KERNEL_BASE := 0x82000000
 BOARD_KERNEL_PAGESIZE := 4096
-TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_kyleveub_rev00_defconfig
+TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_kyleve_rev00_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/kyleveub
 
 # PARTITION SIZE
