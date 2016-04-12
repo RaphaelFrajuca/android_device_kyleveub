@@ -442,7 +442,7 @@ on boot
     chown system system /efs/FactoryApp/serial_no
     
 on fs
-    mount_all /fstab.hawaii_ss_kyleveub
+    mount_all /fstab.hawaii_ss_kyleve
     setprop ro.crypto.fuse_sdcard true
 
     # don't require sim
