@@ -125,6 +125,32 @@ BOARD_USE_USB_MASS_STORAGE_SWITCH           := true
 BOARD_SUPPRESS_EMMC_WIPE                    := true
 TARGET_RECOVERY_DENSITY                     := hdpi
 
+# Philz
+#TARGET_COMMON_NAME := GT-S7392
+#BOOTLOADER_CMD_ARG := "download"
+#BOARD_HAS_LOW_RESOLUTION := true
+#BRIGHTNESS_SYS_FILE := "/sys/class/backlight/panel/brightness"
+#BOARD_USE_B_SLOT_PROTOCOL := true
+
+# TWRP Specific
+#RECOVERY_GRAPHICS_USE_LINELENGTH := true
+#DEVICE_RESOLUTION := 480x800
+#BOARD_HAS_NO_REAL_SDCARD := true
+#RECOVERY_SDCARD_ON_DATA := true
+#TW_INTERNAL_STORAGE_PATH := /data/media
+#TW_INTERNAL_STORAGE_MOUNT_POINT := sdcard
+#TW_EXTERNAL_STORAGE_PATH := /external_sd
+#TW_EXTERNAL_STORAGE_MOUNT_POINT := external_sd
+#TW_NO_USB_STORAGE := true
+#TW_DEFAULT_EXTERNAL_STORAGE := true
+#TW_HAS_DOWNLOAD_MODE := true
+#TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
+#TW_MAX_BRIGHTNESS := 255
+#TW_NO_CPU_TEMP := true
+#TW_NO_REBOOT_BOOTLOADER := true
+#TW_EXCLUDE_SUPERSU := true
+
+
 # CMHW
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw/ device/samsung/kyleveub/cmhw/
 
