@@ -126,7 +126,7 @@ BOARD_SUPPRESS_EMMC_WIPE                    := true
 TARGET_RECOVERY_DENSITY                     := hdpi
 
 # Philz
-#TARGET_COMMON_NAME := GT-S7392
+#TARGET_COMMON_NAME := GT-S7392L
 #BOOTLOADER_CMD_ARG := "download"
 #BOARD_HAS_LOW_RESOLUTION := true
 #BRIGHTNESS_SYS_FILE := "/sys/class/backlight/panel/brightness"
