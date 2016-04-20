@@ -149,6 +149,7 @@ TARGET_RECOVERY_DENSITY                     := hdpi
 #TW_NO_CPU_TEMP := true
 #TW_NO_REBOOT_BOOTLOADER := true
 #TW_EXCLUDE_SUPERSU := true
+#TW_THEME := landscape_hdpi
 
 
 # CMHW
