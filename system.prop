@@ -22,3 +22,7 @@ ro.ril.hsxpa=1
 ro.ril.gprsclass=10
 persist.sys.dataprefer.simid=0
 ro.com.google.gmsversion=4.1_r6
+
+# Use This Code to Activate Virtual Android buttons (Navbar)
+# 0=Activated 1=Desacitived
+qemu.hw.mainkeys=1
