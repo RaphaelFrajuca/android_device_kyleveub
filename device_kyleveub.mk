@@ -10,7 +10,7 @@ PRODUCT_LOCALES += hdpi
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
-# DEVICE_PACKAGE_OVERLAYS += device/samsung/kyleveub/overlay
+ DEVICE_PACKAGE_OVERLAYS += device/samsung/kyleveub/overlay
 
 # Init files
 PRODUCT_COPY_FILES += \
