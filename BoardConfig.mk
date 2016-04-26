@@ -111,7 +111,7 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd-kyleveub.hawaii
 BOARD_RIL_CLASS := ../../../device/samsung/kyleveub/ril/
 
 # Recovery
-TARGET_RECOVERY_INITRC := device/samsung/kyleveub/ramdisk/init.rc
+#TARGET_RECOVERY_INITRC := device/samsung/kyleveub/ramdisk/init.rc
 TARGET_RECOVERY_FSTAB := device/samsung/kyleveub/ramdisk/fstab.hawaii_ss_kyleve
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun%d/file"
 BOARD_HAS_NO_SELECT_BUTTON := true
