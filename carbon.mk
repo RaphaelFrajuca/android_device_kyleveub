@@ -7,7 +7,7 @@ TARGET_SCREEN_WIDTH := 480
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
-# Inherit some common CM stuff.
+# Inherit some common Carbon stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # Inherit device configuration
