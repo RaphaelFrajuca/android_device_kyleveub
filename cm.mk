@@ -9,7 +9,7 @@ $(call inherit-product, device/samsung/kyleveub/device_kyleveub.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := kyleveub
-PRODUCT_NAME := carbon_kyleveub
+PRODUCT_NAME := cm_kyleveub
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-S7392L
