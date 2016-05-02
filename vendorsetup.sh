@@ -3,6 +3,6 @@ for i in eng userdebug user; do
 done
 function kyleveub
 {
-	lunch cm_kyleveub-userdebug
+	lunch carbon_kyleveub-userdebug
 	mka bacon -j10
 }
