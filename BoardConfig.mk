@@ -21,6 +21,9 @@ BOARD_VENDOR := samsung
 # Disable prebuilt chromium
 PRODUCT_PREBUILT_WEBVIEWCHROMIUM := false
 
+# For low memory targets only (~512MB RAM & hdpi resolution)
+TARGET_ARCH_LOWMEM := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := kyleveub,S7392L,GT-S7392L,hawaii
 
