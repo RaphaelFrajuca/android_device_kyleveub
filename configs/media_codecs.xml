@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MediaCodecs>
+	<Include href="media_codecs_google_audio.xml" />
+    <Include href="media_codecs_google_telephony.xml" />
+    <Decoders>
+		<MediaCodec name="OMX.brcm.video.h264.hw.decoder" type="video/avc">
+			<Quirk name="requires-allocate-on-input-ports" />
+		</MediaCodec>
+		<MediaCodec name="OMX.ffmpeg.ac3.decoder" type="audio/ac3" >
+            <Limit name="channel-count" max="8" />
+            <Limit name="sample-rate" ranges="8000-192000" />
+		</MediaCodec>
+    </Decoders>
+	
+    <Encoders>
+		<MediaCodec name="OMX.brcm.video.h264.hw.encoder" type="video/avc" />
+                <MediaCodec name="OMX.brcm.video.h263.decoder" type="video/3gpp" />
+		<MediaCodec name="OMX.brcm.audio.aac.encoder" type="audio/mp4a-latm" />
+    </Encoders>
+	<Include href="media_codecs_google_video_le.xml" />
+	<Include href="media_codecs_ffmpeg.xml" />
+</MediaCodecs>
