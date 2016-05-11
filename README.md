@@ -34,4 +34,4 @@ Then
 `patch_fix`  // TO MAKE ROM STABLE
 
 
-`kyleveub`
+`kyleveub`  // TO COMPILE FOR KYLEVEUB
