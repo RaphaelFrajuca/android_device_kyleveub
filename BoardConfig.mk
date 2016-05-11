@@ -18,6 +18,10 @@ TARGET_BOOTLOADER_BOARD_NAME := hawaii
 # Assert
 TARGET_OTA_ASSERT_DEVICE := kyleveub,S7392L,GT-S7392L,hawaii
 TARGET_EXTERNAL_APPS = sdcard1
+
+# For low memory targets only (~512MB RAM & hdpi resolution)
+TARGET_ARCH_LOWMEM := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE :=
 BOARD_KERNEL_BASE := 0x82000000
