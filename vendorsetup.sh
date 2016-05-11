@@ -11,7 +11,7 @@ function kyleveub
 function patch_fix
 {
 echo "patching cm-11.0 sources"
-time patch -p1 <device/samsung/kyleveub/patch/patch.diff
+time patch -p1 <device/samsung/kyleveub/patch/apps2sd/patch.diff
 echo "done"
 }
 
