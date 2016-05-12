@@ -16,8 +16,8 @@ PASTE THIS INSIDE THAT FILE :-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <project path="kernel/samsung/kyleveub" name="RaphaelFrajuca/android_kernel_kyleveub" revision="stock" />
-<project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1"/>
-<project path="device/samsung/kyleveub" name="RaphaelFrajuca/android_device_kyleveub" remote="github" revision="cm-12.1" />
+<project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0"/>
+<project path="device/samsung/kyleveub" name="RaphaelFrajuca/android_device_kyleveub" remote="github" revision="aokp-kk" />
 <project path="vendor/samsung/kyleveub" name="RaphaelFrajuca/android_vendor_kyleveub" revision="carbon-kk" />
 </manifest>
 ```
