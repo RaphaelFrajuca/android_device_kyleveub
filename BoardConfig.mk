@@ -133,11 +133,11 @@ BOARD_SUPPRESS_EMMC_WIPE                    := true
 TARGET_RECOVERY_DENSITY                     := hdpi
 
 # Philz
-#TARGET_COMMON_NAME := GT-S7392L
-#BOOTLOADER_CMD_ARG := "download"
-#BOARD_HAS_LOW_RESOLUTION := true
-#BRIGHTNESS_SYS_FILE := "/sys/class/backlight/panel/brightness"
-#BOARD_USE_B_SLOT_PROTOCOL := true
+TARGET_COMMON_NAME := GT-S7392L
+BOOTLOADER_CMD_ARG := "download"
+BOARD_HAS_LOW_RESOLUTION := true
+BRIGHTNESS_SYS_FILE := "/sys/class/backlight/panel/brightness"
+BOARD_USE_B_SLOT_PROTOCOL := true
 
 # TWRP Specific
 #RECOVERY_GRAPHICS_USE_LINELENGTH := true
