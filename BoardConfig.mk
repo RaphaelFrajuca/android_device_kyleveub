@@ -20,6 +20,8 @@ BOARD_VENDOR := samsung
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := kyleveub,S7392L,GT-S7392L,hawaii
+
+# Apps to External SD
 TARGET_EXTERNAL_APPS = sdcard1
 
 # For low memory targets only (~512MB RAM & hdpi resolution)
@@ -75,7 +77,7 @@ TARGET_SCREEN_WIDTH := 480
 # of an SDK AVD. Note that this operation only works on Linux for now
 ifeq ($(HOST_OS),linux)
   ifeq ($(WITH_DEXPREOPT),)
-    WITH_DEXPREOPT := true
+    WITH_DEXPREOPT := false
   endif
 endif
 
