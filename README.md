@@ -1,7 +1,7 @@
-android_device_kyleve
+android_device_kyleveub
 ======================
 
-Device tree for Galaxy Trend Duos GT-S7392 (2 SIM)
+Device tree for Galaxy Trend Lite GT-S7392L (2 SIM)
 
 <b>HOW TO COMPILE ?</b>
 
@@ -11,7 +11,7 @@ Device tree for Galaxy Trend Duos GT-S7392 (2 SIM)
 
 `mkdir .repo/local_manifests`
 
-`gedit .repo/local_manifests/kyleve.xml `
+`gedit .repo/local_manifests/kyleveub.xml `
 
 <b>PASTE THIS INSIDE THAT FILE :- </b>
 
@@ -19,9 +19,9 @@ Device tree for Galaxy Trend Duos GT-S7392 (2 SIM)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<project path="device/samsung/kyleve" name="SiniTurk/android_device_kyleve" revision="cm-10.0" />
-<project path="kernel/samsung/kyleve" name="SiniTurk/android_kernel_samsung_kylevexx" revision="stock" />
-<project path="vendor/samsung/kyleve" name="SiniTurk/android_vendor_samsung_kyleve" revision="cm-10.0" />
+<project path="device/samsung/kyleveub" name="RaphaelFrajuca/android_device_kyleve" revision="cm-10.0" />
+<project path="kernel/samsung/kyleveub" name="SiniTurk/android_kernel_samsung_kylevexx" revision="stock" />
+<project path="vendor/samsung/kyleveub" name="SiniTurk/android_vendor_samsung_kyleve" revision="cm-10.0" />
 </manifest>
 ```
 
@@ -29,6 +29,6 @@ Device tree for Galaxy Trend Duos GT-S7392 (2 SIM)
 
 `patch_fix`
 
-`kyleve `
+`kyleveub `
 
 <b>FLASH THE ROM AND ENJOY!</b>
