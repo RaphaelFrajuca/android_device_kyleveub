@@ -45,8 +45,8 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 	persist.service.adb.enable=1
 
 # KSM
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ksm.default=0	
+# PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.ksm.default=0	
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
