@@ -47,8 +47,8 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 # Filesystem management tools
 PRODUCT_PACKAGES += \
 	make_ext4fs \
-    e2fsck \
-    setup_fs
+        e2fsck \
+        setup_fs
 	
 # Open-source lights HAL
 PRODUCT_PACKAGES += \
@@ -66,8 +66,8 @@ PRODUCT_PACKAGES += \
 	SamsungServiceMode
 
 # KSM
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.ksm.default=1	
+# PRODUCT_PROPERTY_OVERRIDES += \
+#	ro.ksm.default=1	
 	
 # Wi-Fi
 PRODUCT_PACKAGES += \
