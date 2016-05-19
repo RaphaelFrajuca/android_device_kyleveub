@@ -66,8 +66,8 @@ PRODUCT_PACKAGES += \
 	SamsungServiceMode
 
 # KSM
-# PRODUCT_PROPERTY_OVERRIDES += \
-#	ro.ksm.default=1	
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.ksm.default=1	
 	
 # Wi-Fi
 PRODUCT_PACKAGES += \
