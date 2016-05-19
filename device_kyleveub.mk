@@ -57,6 +57,14 @@ PRODUCT_PACKAGES += \
 # Usb accessory
 PRODUCT_PACKAGES += \
 	com.android.future.usb.accessory
+	
+# Use 3 threads for Dex2Oat.
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.sys.fw.dex2oat_thread_count=3
+
+# ART
+PRODUCT_PROPERTY_OVERRIDES += \
+        dalvik.vm.dex2oat-flags=--no-watch-dog	
 
 # Misc other modules
 PRODUCT_PACKAGES += \
