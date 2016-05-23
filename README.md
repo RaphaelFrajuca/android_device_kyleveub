@@ -278,4 +278,8 @@ max keysize  : 0
 ~ # 
 ```
 
+## Device Picture 
+
+![Sasmung Galaxy Trend Lite|GT-S7392L] (http://www.tudoemtecnologia.com/wp-content/uploads/2013/12/Galaxy-Trend-Lite-Duos-GT-S7392L.jpg "Samsung Galaxy Trend Lite|GT-S7392L")
+
 
