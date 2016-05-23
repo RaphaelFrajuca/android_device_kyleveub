@@ -20,8 +20,8 @@ Device tree for Galaxy Trend Lite GT-S7392L (2 SIM)
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <project path="device/samsung/kyleveub" name="RaphaelFrajuca/android_device_kyleve" revision="cm-10.0" />
-<project path="kernel/samsung/kyleveub" name="SiniTurk/android_kernel_samsung_kylevexx" revision="stock" />
-<project path="vendor/samsung/kyleveub" name="SiniTurk/android_vendor_samsung_kyleve" revision="cm-10.0" />
+<project path="kernel/samsung/kyleveub" name="RaphaelFrajuca/android_kernel_kyleveub" revision="stock" />
+<project path="vendor/samsung/kyleveub" name="RaphaelFrajuca/android_vendor_kyleveub" revision="cm-10.0" />
 </manifest>
 ```
 
