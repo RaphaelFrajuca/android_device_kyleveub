@@ -4,6 +4,44 @@ android_device_kyleveub
 Device tree for Galaxy Trend Lite GT-S7392L (2 SIM)
 Tree forked to work in kyleveub variant
 
+<b>HOW TO COMPILE ?</b>
+
+<b>TYPE THIS COMMANDS :- </b>
+
+`cd cm11`
+
+`mkdir .repo/local_manifests`
+
+`gedit .repo/local_manifests/kyleveub.xml `
+
+<b>PASTE THIS INSIDE THAT FILE :- </b>
+
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project path="device/samsung/kyleveub" name="RaphaelFrajuca/android_device_kyleveub" revision="cm-11.0" />
+<project path="kernel/samsung/kyleveub" name="RaphaelFrajuca/android_kernel_kyleveub" revision="stock" />
+<project path="vendor/samsung/kyleveub" name="RaphaelFrajuca/android_vendor_kyleveub" revision="carbon-kk" />
+</manifest>
+```
+
+`. build/envsetup.sh `
+
+`patch_fix`
+
+`cd cm11/vendor/cm`
+
+`./get-prebuilts`
+
+`cd`
+
+`cd cm11`
+
+`kyleveub `
+
+<b>FLASH THE ROM AND ENJOY!</b>
+
 # Device Informations
 ```
 ~ # cat /proc/cpuinfo
