@@ -18,14 +18,13 @@ TARGET_BOOTLOADER_BOARD_NAME := hawaii
 # Assert
 TARGET_OTA_ASSERT_DEVICE := kyleveub,S7392L,GT-S7392L,hawaii
 TARGET_EXTERNAL_APPS = sdcard1
-
 # Kernel
 BOARD_KERNEL_CMDLINE :=
 BOARD_KERNEL_BASE := 0x82000000
 BOARD_KERNEL_PAGESIZE := 4096
 TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_kyleve_rev00_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/kyleveub
-TARGET_PROVIDES_INITRC := true
+# TARGET_PROVIDES_INITRC := true
 
 # PARTITION SIZE
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
@@ -80,7 +79,7 @@ TARGET_SCREEN_WIDTH := 480
 # of an SDK AVD. Note that this operation only works on Linux for now
 ifeq ($(HOST_OS),linux)
   ifeq ($(WITH_DEXPREOPT),)
-    WITH_DEXPREOPT := false
+    WITH_DEXPREOPT := true
   endif
 endif
 
@@ -136,6 +135,12 @@ TARGET_RECOVERY_DENSITY                     := hdpi
 
 # CMHW
 BOARD_HARDWARE_CLASS := device/samsung/kyleveub/cmhw/
+
+MALLOC_IMPL := dlmalloc
+
+#FM-Radio
+BOARD_HAVE_FM_RADIO := true
+BOARD_FM_DEVICE := bcm4329
 
 # GPS
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/kyleveub/include
